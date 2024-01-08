@@ -1,49 +1,119 @@
 body {
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
-  margin: 0;
-  padding: 0;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.banner-container {
+.banner {
   box-sizing: border-box;
-  border-radius: 15px;
   width: 1320px;
   height: 600px;
   background-image: url("resources/Banner-Image.png");
-  margin: 50px auto;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: gray;
-  background-blend-mode: multiply;
-}
-
-.banner-items {
-  color: #fff;
-  margin-top: 200px;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner-title {
-  text-align: center;
-  font-family: Merriweather;
-  font-size: 30px;
-  font-weight: 400;
+  border-radius: 16px;
+  padding: 10px;
+  margin: 40px auto;
 }
 
 .banner-des {
+  color: #fff;
   text-align: center;
-  font-family: Merriweather;
-  font-size: 70px;
-  font-weight: 900;
-  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
 }
+
+.banner-des > h3 {
+  font-size: 25px;
+}
+
+.banner-des > h1 {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.offer-section {
+  width: 1200px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.offer-percentage {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.offer-title > h3 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.offer-title > h1 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 0px;
+  padding: 2px;
+}
+
+.party-section {
+  box-sizing: border-box;
+  width: 1320px;
+  height: 600px;
+  background-image: url("resources/Vectorrr.png");
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.party-content {
+  padding: 50px;
+  width: 642px;
+}
+
+.party-content > h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 80px;
+  letter-spacing: 7.04px;
+  margin-bottom: 20px;
+}
+
+.party-content > p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+.join-btn {
+  color: #fff;
+  background: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-family: inter;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
