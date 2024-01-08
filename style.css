@@ -34,7 +34,7 @@ body {
 }
 
 .offer-section {
-  width: 1200px;
+  width: 1320px;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -71,6 +71,7 @@ body {
 
 .party-section {
   box-sizing: border-box;
+  border-radius: 15px;
   width: 1320px;
   height: 600px;
   background-image: url("resources/Vectorrr.png");
@@ -117,3 +118,43 @@ body {
   font-weight: bold;
 }
 
+.location {
+  width: 1320px;
+  height: 480px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 15px;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 100px auto;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+  text-transform: capitalize;
+  font-family: inter;
+  padding-top: 150px;
+}
+
+.location-title {
+  color: #f00;
+}
+
+.red-btn {
+  border-style: none;
+  border-radius: 8px;
+  background: #f00;
+  display: inline-flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 50px;
+}
